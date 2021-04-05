@@ -1,0 +1,18 @@
+Клиент Max вошел в чат
+[ Mon Apr 05 15:24:44 MSK 2021 ]
+MAX: 123
+[ Mon Apr 05 15:24:44 MSK 2021 ]
+MAX: 456
+Клиент Max вошел в чат
+[ Mon Apr 05 15:24:57 MSK 2021 ]
+MAX: ferdsfvsdgsdgdsgsdgsdgsdgsdgsd
+Клиент Max вошел в чат
+[ Mon Apr 05 15:25:13 MSK 2021 ]
+MAX: gregregrgregr
+[ Mon Apr 05 15:25:13 MSK 2021 ]
+MAX: fgfdggsdfsfasdasd
+[ Mon Apr 05 15:25:13 MSK 2021 ]
+MAX: dadadadadadax
+[ Mon Apr 05 15:25:13 MSK 2021 ]
+MAX: x
+Клиент Max вошел в чат
