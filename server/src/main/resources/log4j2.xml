@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <Property name="basePath">logs</Property>
+    </Properties>
+
+    <Appenders>
+        <File name="FILE1" fileName="${basePath}/logfile1.log" append="true">
+            <PatternLayout pattern="%-5p %d{yyyy-MM-dd HH:mm:ss} [%t] %C (%F:%L) - %m%n" />
+        </File>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-5p %d{yyyy-MM-dd HH:mm:ss} [%t] %C:%L (%F:%L) - %m%n" />
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="fatal">
+            <AppenderRef ref="STDOUT"/>
+            <!--вывод в консоль-->
+            <AppenderRef ref="FILE1"/>
+            <!--вывод в файл-->
+        </Root>
+        <Logger name="ru.geekbrains.balyanova.marchchat.Server" level="info">
+<!--            <AppenderRef ref="STDOUT"/>-->
+<!--            <AppenderRef ref="FILE1"/>-->
+            <!--сообщения дублируются-->
+        </Logger>
+        <Logger name="ru.geekbrains.balyanova.marchchat.DbConnection" level="error">
+        </Logger>
+        <Logger name="ru.geekbrains.balyanova.marchchat.ClientHandler" level="info">
+        </Logger>
+    </Loggers>
+
+</Configuration>
+
+
